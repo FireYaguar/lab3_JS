@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "rooms": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "players": 0,
+      "maxPlayers": 4,
+      "arena": { "width": 1600, "height": 900, "asteroids": 6, "seed": 2026 }
+    },
+    {
+      "id": "belt",
+      "name": "Asteroid Belt",
+      "players": 1,
+      "maxPlayers": 4,
+      "arena": { "width": 1800, "height": 1000, "asteroids": 14, "seed": 7 }
+    },
+    {
+      "id": "duel",
+      "name": "Duel (small)",
+      "players": 2,
+      "maxPlayers": 2,
+      "arena": { "width": 1100, "height": 650, "asteroids": 3, "seed": 42 }
+    }
+  ]
+}
